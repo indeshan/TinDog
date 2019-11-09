@@ -29,6 +29,8 @@ body {
 
 #features {
 	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
 }
 
 #testimonials {
@@ -41,6 +43,11 @@ body {
 	background-color: #ff4c68;
 	text-align: center;
 	padding-bottom: 3%;
+}
+
+#pricing {
+	padding: 100px;
+	text-align: center;
 }
 
 .feature-box {
@@ -59,7 +66,7 @@ body {
 }
 
 .container-fluid {
-	padding: 3% 15%;
+	padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -92,6 +99,8 @@ body {
 .title-image {
 	width: 60%;
 	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
 }
 
 .testimonial-image {
@@ -107,4 +116,8 @@ body {
 
 .carousel-item {
 	padding: 7% 15%;
+}
+
+.pricing-column {
+	padding: 3% 2%;
 }
